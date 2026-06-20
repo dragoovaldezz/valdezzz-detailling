@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<!-- saved from url=(0223)file:///C:/Users/drago/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/AA4FABFC8FCF0D892BC6CE430EED049E7E01CCE0/transfers/2026-25/Valdez_Detailing___Productos_Vonixx_y_Accesorios%20(1).html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valdez Detailing | Productos Vonixx y Accesorios</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#000;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+font-size:3rem;
+color:#ff9800;
+}
+
+nav{
+background:#111;
+padding:15px;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ff9800;
+}
+
+.banner{
+height:500px;
+background:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-shadow:2px 2px 5px black;
+}
+
+.banner h2{
+font-size:3rem;
+}
+
+.banner p{
+font-size:1.3rem;
+margin-top:10px;
+}
+
+section{
+padding:60px 40px;
+}
+
+.titulo{
+text-align:center;
+margin-bottom:10px;
+font-size:2rem;
+}
+
+.subtitulo{
+text-align:center;
+margin-bottom:40px;
+color:#555;
+font-size:1.1rem;
+}
+
+.productos{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 4px 15px rgba(0,0,0,.15);
+transition:.3s;
+display:flex;
+flex-direction:column;
+position:relative;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:230px;
+object-fit:contain;
+background:white;
+padding:15px;
+}
+
+.card h3{
+padding:15px 15px 5px;
+}
+
+.card p{
+padding:0 15px 15px;
+color:#444;
+flex-grow:1;
+}
+
+.precio{
+font-size:1.5rem;
+color:green;
+font-weight:bold;
+padding:0 15px 15px;
+}
+
+button{
+width:100%;
+padding:15px;
+border:none;
+background:#ff9800;
+color:white;
+cursor:pointer;
+font-size:1rem;
+font-weight:bold;
+transition:.2s;
+}
+
+button:hover{
+background:#e68900;
+}
+
+button:disabled{
+background:#4caf50;
+cursor:default;
+}
+
+/* ---------- Insignia de producto Vonixx original ---------- */
+
+.badge-vonixx{
+position:absolute;
+top:10px;
+left:10px;
+background:#000;
+color:#ff9800;
+font-size:.7rem;
+font-weight:bold;
+padding:5px 10px;
+border-radius:20px;
+letter-spacing:.5px;
+z-index:2;
+}
+
+/* ---------- Sección Productos de Lavado (Vonixx) ---------- */
+
+.lavado{
+background:#fff7ec;
+border-top:5px solid #ff9800;
+border-bottom:5px solid #ff9800;
+}
+
+/* ---------- Insignia de producto Toxic Shine original ---------- */
+
+.badge-toxic{
+position:absolute;
+top:10px;
+left:10px;
+background:#d32f2f;
+color:#fff;
+font-size:.7rem;
+font-weight:bold;
+padding:5px 10px;
+border-radius:20px;
+letter-spacing:.5px;
+z-index:2;
+}
+
+/* ---------- Sección Productos Toxic Shine ---------- */
+
+.toxicshine{
+background:#161616;
+color:white;
+border-top:5px solid #d32f2f;
+border-bottom:5px solid #d32f2f;
+}
+
+.toxicshine .subtitulo{
+color:#bbb;
+}
+
+.toxicshine .card{
+background:#242424;
+}
+
+.toxicshine .card img{
+background:#242424;
+}
+
+.toxicshine .card h3{
+color:white;
+}
+
+.toxicshine .card p{
+color:#ccc;
+}
+
+.toxicshine .precio{
+color:#7fffb0;
+}
+
+.toxicshine button{
+background:#d32f2f;
+}
+
+.toxicshine button:hover{
+background:#b71c1c;
+}
+
+.toxicshine button:disabled{
+background:#4caf50;
+}
+
+/* ---------- Sección Accesorios y Equipamiento ---------- */
+
+.accesorios{
+background:#1a1a1a;
+color:white;
+}
+
+.accesorios .subtitulo{
+color:#bbb;
+}
+
+.accesorios .card{
+background:#2a2a2a;
+}
+
+.accesorios .card img{
+background:#2a2a2a;
+}
+
+.accesorios .card h3{
+color:white;
+}
+
+.accesorios .card p{
+color:#ccc;
+}
+
+.accesorios .precio{
+color:#7fffb0;
+}
+
+.accesorios button{
+background:#444;
+}
+
+.accesorios button:hover{
+background:#555;
+}
+
+.accesorios button:disabled{
+background:#4caf50;
+}
+
+.ofertas{
+background:white;
+text-align:center;
+}
+
+.contacto{
+background:#222;
+color:white;
+}
+
+form{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,textarea{
+padding:12px;
+border:none;
+border-radius:5px;
+font-family:inherit;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+/* ---------- CARRITO ---------- */
+
+.cart-btn{
+position:fixed;
+top:20px;
+right:20px;
+z-index:1100;
+background:#ff9800;
+color:white;
+border:none;
+border-radius:50%;
+width:55px;
+height:55px;
+font-size:1.6rem;
+cursor:pointer;
+box-shadow:0 4px 12px rgba(0,0,0,.35);
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.cart-btn:hover{
+background:#e68900;
+}
+
+.cart-badge{
+position:absolute;
+top:-4px;
+right:-4px;
+background:#d32f2f;
+color:white;
+font-size:.75rem;
+font-weight:bold;
+border-radius:50%;
+width:22px;
+height:22px;
+display:none;
+align-items:center;
+justify-content:center;
+}
+
+.cart-overlay{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.5);
+opacity:0;
+visibility:hidden;
+transition:.3s;
+z-index:1200;
+}
+
+.cart-overlay.active{
+opacity:1;
+visibility:visible;
+}
+
+.cart-panel{
+position:fixed;
+top:0;
+right:0;
+height:100vh;
+width:380px;
+max-width:90vw;
+background:white;
+z-index:1300;
+transform:translateX(100%);
+transition:transform .3s;
+display:flex;
+flex-direction:column;
+box-shadow:-4px 0 20px rgba(0,0,0,.25);
+}
+
+.cart-panel.active{
+transform:translateX(0);
+}
+
+.cart-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#111;
+color:white;
+}
+
+.cart-header h3{
+font-size:1.3rem;
+}
+
+.close-btn{
+background:none;
+border:none;
+color:white;
+font-size:1.4rem;
+cursor:pointer;
+width:auto;
+padding:0;
+line-height:1;
+}
+
+.cart-body{
+flex:1;
+overflow-y:auto;
+padding:20px;
+}
+
+#cart-empty{
+text-align:center;
+color:#888;
+margin-top:40px;
+}
+
+.cart-item{
+display:flex;
+gap:12px;
+margin-bottom:15px;
+padding-bottom:15px;
+border-bottom:1px solid #eee;
+align-items:center;
+}
+
+.cart-item img{
+width:60px;
+height:60px;
+object-fit:contain;
+background:#f5f5f5;
+border-radius:6px;
+flex-shrink:0;
+padding:4px;
+}
+
+.cart-item-info{
+flex:1;
+min-width:0;
+}
+
+.cart-item-info h4{
+font-size:.92rem;
+margin-bottom:3px;
+}
+
+.cart-item-info p{
+color:green;
+font-weight:bold;
+font-size:.88rem;
+margin-bottom:6px;
+}
+
+.qty-controls{
+display:flex;
+align-items:center;
+gap:8px;
+}
+
+.qty-controls button{
+width:26px;
+height:26px;
+border-radius:50%;
+background:#eee;
+color:#333;
+font-size:1rem;
+padding:0;
+line-height:1;
+}
+
+.qty-controls button:hover{
+background:#ddd;
+}
+
+.qty-controls span{
+font-weight:bold;
+min-width:18px;
+text-align:center;
+}
+
+.remove-btn{
+background:none;
+border:none;
+color:#d32f2f;
+font-size:1.2rem;
+cursor:pointer;
+padding:0;
+width:auto;
+align-self:flex-start;
+}
+
+.cart-footer{
+padding:20px;
+border-top:1px solid #eee;
+}
+
+.cart-total-row{
+display:flex;
+justify-content:space-between;
+font-size:1.25rem;
+font-weight:bold;
+margin-bottom:15px;
+}
+
+/* ---------- MODAL DE COMPRA EXITOSA ---------- */
+
+.success-overlay{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.6);
+display:flex;
+align-items:center;
+justify-content:center;
+opacity:0;
+visibility:hidden;
+transition:.3s;
+z-index:1400;
+padding:20px;
+}
+
+.success-overlay.active{
+opacity:1;
+visibility:visible;
+}
+
+.success-card{
+background:white;
+border-radius:14px;
+padding:40px 30px;
+max-width:400px;
+text-align:center;
+}
+
+.check-icon{
+width:70px;
+height:70px;
+background:#4caf50;
+color:white;
+border-radius:50%;
+font-size:2.2rem;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:0 auto 20px;
+}
+
+.success-card h2{
+margin-bottom:15px;
+color:#222;
+}
+
+.success-card p{
+margin-bottom:8px;
+color:#444;
+}
+
+.success-note{
+font-size:.85rem;
+color:#888;
+margin:15px 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<button class="cart-btn" onclick="openCart()" aria-label="Ver carrito">
+🛒
+<span class="cart-badge" id="cart-count" style="display: none;">0</span>
+</button>
+
+<header>
+<h1>Valdez Detailing</h1>
+<p>Productos Premium Vonixx y Toxic Shine para Detailing Automotriz</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="file:///C:/Users/drago/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/AA4FABFC8FCF0D892BC6CE430EED049E7E01CCE0/transfers/2026-25/Valdez_Detailing___Productos_Vonixx_y_Accesorios%20(1).html#inicio">Inicio</a></li>
+<li><a href="file:///C:/Users/drago/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/AA4FABFC8FCF0D892BC6CE430EED049E7E01CCE0/transfers/2026-25/Valdez_Detailing___Productos_Vonixx_y_Accesorios%20(1).html#lavado">Productos Vonixx</a></li>
+<li><a href="file:///C:/Users/drago/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/AA4FABFC8FCF0D892BC6CE430EED049E7E01CCE0/transfers/2026-25/Valdez_Detailing___Productos_Vonixx_y_Accesorios%20(1).html#toxicshine">Productos Toxic Shine</a></li>
+<li><a href="file:///C:/Users/drago/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/AA4FABFC8FCF0D892BC6CE430EED049E7E01CCE0/transfers/2026-25/Valdez_Detailing___Productos_Vonixx_y_Accesorios%20(1).html#accesorios">Accesorios y Equipo</a></li>
+<li><a href="file:///C:/Users/drago/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/AA4FABFC8FCF0D892BC6CE430EED049E7E01CCE0/transfers/2026-25/Valdez_Detailing___Productos_Vonixx_y_Accesorios%20(1).html#ofertas">Ofertas</a></li>
+<li><a href="file:///C:/Users/drago/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/AA4FABFC8FCF0D892BC6CE430EED049E7E01CCE0/transfers/2026-25/Valdez_Detailing___Productos_Vonixx_y_Accesorios%20(1).html#contacto">Contacto</a></li>
+</ul>
+</nav>
+
+<section class="banner" id="inicio">
+<h2>Brillo Profesional</h2>
+<p>Los mejores productos Vonixx y Toxic Shine para tu vehículo</p>
+</section>
+
+<section class="lavado" id="lavado">
+<h2 class="titulo">🧴 Productos Vonixx para Lavado y Cuidado</h2>
+<p class="subtitulo">Shampoos, ceras y limpiadores originales Vonixx para el lavado y mantenimiento de tu auto</p>
+
+<div class="productos">
+
+<div class="card" data-id="vfloc" data-name="V-Floc" data-price="15000">
+<span class="badge-vonixx">VONIXX ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/v-floc-vonixx-500ml.jpg" alt="V-Floc Vonixx">
+<h3>V-Floc</h3>
+<p>Shampoo automotriz de pH neutro y alta lubricación para el lavado del auto.</p>
+<p class="precio">$15.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="sintrafast" data-name="Sintra Fast" data-price="18000">
+<span class="badge-vonixx">VONIXX ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/sintra-fast-vonixx-500ml.png" alt="Sintra Fast Vonixx">
+<h3>Sintra Fast</h3>
+<p>Limpiador multipropósito bactericida, listo para usar, para interiores.</p>
+<p class="precio">$18.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="blendwax" data-name="Blend Spray Wax" data-price="22000">
+<span class="badge-vonixx">VONIXX ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/cera-blend-spray-vonixx-500ml.jpg" alt="Blend Spray Wax Vonixx">
+<h3>Blend Spray Wax</h3>
+<p>Cera híbrida con carnauba y SiO2, brillo intenso e hidrorrepelencia.</p>
+<p class="precio">$22.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="restaurax" data-name="Restaurax" data-price="20000">
+<span class="badge-vonixx">VONIXX ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/restaurax-vonixx-500ml.jpg" alt="Restaurax Vonixx">
+<h3>Restaurax</h3>
+<p>Renovador en aerosol para plásticos y gomas exteriores, con protección UV.</p>
+<p class="precio">$20.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="shiny" data-name="Shiny" data-price="16000">
+<span class="badge-vonixx">VONIXX ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/shiny-vonixx-500ml.jpg" alt="Shiny Vonixx">
+<h3>Shiny</h3>
+<p>Revitalizador de neumáticos con efecto mojado y brillo de larga duración.</p>
+<p class="precio">$16.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ceraenpasta" data-name="Cera en Pasta Carnauba" data-price="28000">
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/photo-1565689876115-23f4019e888d" alt="Cera en Pasta Carnauba">
+<h3>Cera en Pasta Carnauba</h3>
+<p>Cera tradicional en lata con alta concentración de carnauba para un brillo profundo.</p>
+<p class="precio">$28.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="aromatizante" data-name="Aromatizante Automotor" data-price="3500">
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/photo-1764788127543-f7b59ef09783" alt="Aromatizante Automotor">
+<h3>Aromatizante Automotor</h3>
+<p>Fragancia de larga duración para mantener el interior siempre agradable.</p>
+<p class="precio">$3.500</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+</div>
+</section>
+
+<section class="toxicshine" id="toxicshine">
+<h2 class="titulo">💀 Productos Toxic Shine</h2>
+<p class="subtitulo">Shampoos, ceras, selladores y acondicionadores originales Toxic Shine</p>
+
+<div class="productos">
+
+<div class="card" data-id="ts-shampoo" data-name="Toxic Shine Shampoo" data-price="14000">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/pure-foam1-428fac0d8192f44af616716547620748-640-0.webp" alt="Toxic Shine Shampoo">
+<h3>Shampoo Automotriz</h3>
+<p>Shampoo de alta lubricación y pH neutro para el lavado seguro de la pintura.</p>
+<p class="precio">$14.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-shampoobanana" data-name="Shampoo Banana" data-price="14500">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/banana1-a88763ed75f224d19416716547523812-640-0.webp" alt="Shampoo Banana Toxic Shine">
+<h3>Shampoo Banana</h3>
+<p>Shampoo automotriz con fragancia de banana, alta espuma y suavidad de lavado.</p>
+<p class="precio">$14.500</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-polish" data-name="Polish Toxic Shine" data-price="19000">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/ffffff" alt="Polish Toxic Shine">
+<h3>Polish</h3>
+<p>Pulidor de uso manual para remover imperfecciones leves y realzar el brillo.</p>
+<p class="precio">$19.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-theboss" data-name="The Boss Shine (Cera Líquida)" data-price="21000">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/ffffff(1)" alt="The Boss Shine Toxic Shine">
+<h3>The Boss Shine</h3>
+<p>Spray cera líquida de aplicación rápida, brillo profundo e hidrorrepelencia.</p>
+<p class="precio">$21.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-f2finish" data-name="F2 Finish" data-price="20000">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/ffffff(2)" alt="F2 Finish Toxic Shine">
+<h3>F2 Finish</h3>
+<p>Sellador de acabado que potencia brillo y protección luego del pulido.</p>
+<p class="precio">$20.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-ctrl" data-name="CTRL" data-price="17000">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/ffffff(3)" alt="CTRL Toxic Shine">
+<h3>CTRL</h3>
+<p>Removedor de contaminantes ferrosos para una descontaminación profunda de la pintura.</p>
+<p class="precio">$17.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-darkfluid" data-name="Dark Fluid" data-price="16500">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/ffffff(4)" alt="Dark Fluid Toxic Shine">
+<h3>Dark Fluid</h3>
+<p>Acondicionador de cubiertas con efecto mojado de larga duración.</p>
+<p class="precio">$16.500</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-apc" data-name="APC" data-price="15000">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/ffffff(5)" alt="APC Toxic Shine">
+<h3>APC (Limpiador Multiuso)</h3>
+<p>Limpiador concentrado multipropósito para interiores, motor y superficies.</p>
+<p class="precio">$15.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-gelshine" data-name="Gel Shine" data-price="13500">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/ffffff(6)" alt="Gel Shine Toxic Shine">
+<h3>Gel Shine</h3>
+<p>Gel nutridor y revitalizador para plásticos internos y externos.</p>
+<p class="precio">$13.500</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-sellador" data-name="Sellador y Brillo" data-price="18500">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/ffffff(7)" alt="Sellador y Brillo Toxic Shine">
+<h3>Sellador y Brillo</h3>
+<p>Spray sellador de fácil aplicación que prolonga el brillo y la protección.</p>
+<p class="precio">$18.500</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-ntp" data-name="NTP Acondicionador" data-price="16000">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/ffffff(8)" alt="NTP Toxic Shine">
+<h3>NTP Acondicionador</h3>
+<p>Acondicionador para cuero, plásticos y gomas, con acabado natural sin grasitud.</p>
+<p class="precio">$16.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="ts-aerosol" data-name="Aerosol Revitalizador" data-price="15500">
+<span class="badge-toxic">TOXIC SHINE ORIGINAL</span>
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/ffffff(9)" alt="Aerosol Revitalizador Toxic Shine">
+<h3>Aerosol Revitalizador</h3>
+<p>Revitalizador en aerosol para plásticos y gomas, con protección UV.</p>
+<p class="precio">$15.500</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+</div>
+</section>
+
+<section class="accesorios" id="accesorios">
+<h2 class="titulo">🧰 Accesorios y Equipamiento</h2>
+<p class="subtitulo">Brochas, microfibras, hidrolavadora y herramientas para un detallado profesional</p>
+
+<div class="productos">
+
+<div class="card" data-id="microfibras" data-name="Kit de Microfibras" data-price="12000">
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/photo-1761934658331-2e00b20dc6c6" alt="Kit de Microfibras">
+<h3>Kit de Microfibras</h3>
+<p>Set de paños de microfibra ultra suaves para secado y pulido sin rayar la pintura.</p>
+<p class="precio">$12.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="cepillollantas" data-name="Cepillo para Llantas y Rines" data-price="9500">
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/photo-1565689876697-e467b6c54da2" alt="Cepillo para Llantas">
+<h3>Cepillo para Llantas y Rines</h3>
+<p>Cerdas resistentes para limpiar profundamente rines, rodados y zonas difíciles.</p>
+<p class="precio">$9.500</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="guantelavado" data-name="Guante de Lavado" data-price="11000">
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/photo-1689182358896-2514cd65dfff" alt="Guante de Lavado">
+<h3>Guante de Lavado (Wash Mitt)</h3>
+<p>Mitón de microfibra de alta densidad, ideal para el lavado seguro de la carrocería.</p>
+<p class="precio">$11.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="almohadillas" data-name="Almohadillas Aplicadoras" data-price="7000">
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/photo-1620584898989-d39f7f9ed1b7" alt="Almohadillas Aplicadoras">
+<h3>Almohadillas Aplicadoras</h3>
+<p>Esponjas aplicadoras de espuma para ceras, selladores y revitalizadores.</p>
+<p class="precio">$7.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="hidrolavadora" data-name="Hidrolavadora Portátil" data-price="45000">
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/photo-1769641156607-16833781bc16" alt="Hidrolavadora Portátil">
+<h3>Hidrolavadora Portátil</h3>
+<p>Equipo de alta presión, ideal para un lavado profundo y rápido en casa.</p>
+<p class="precio">$45.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+<div class="card" data-id="balde" data-name="Balde con Separador de Espuma" data-price="16000">
+<img src="./Valdez Detailing _ Productos Vonixx y Accesorios_files/photo-1689182358681-653472890f8d" alt="Balde con Separador de Espuma">
+<h3>Balde con Separador de Espuma</h3>
+<p>Balde con grit guard que evita que la suciedad vuelva a tu guante durante el lavado.</p>
+<p class="precio">$16.000</p>
+<button onclick="addToCart(this)">Añadir al Carrito</button>
+</div>
+
+</div>
+</section>
+
+<section class="ofertas" id="ofertas">
+<h2 class="titulo">Promoción Especial</h2>
+<h3>20% OFF comprando 3 productos o más</h3>
+<p>Válido durante todo el mes.</p>
+</section>
+
+<section class="contacto" id="contacto">
+<h2 class="titulo">Contacto</h2>
+
+<form>
+<input type="text" placeholder="Nombre">
+<input type="email" placeholder="Correo electrónico">
+<textarea rows="5" placeholder="Tu mensaje"></textarea>
+<button type="submit">Enviar</button>
+</form>
+
+</section>
+
+<footer>
+<h3>Valdez Detailing</h3>
+<p>Proyecto Académico 2026</p>
+</footer>
+
+<!-- ---------- CARRITO LATERAL ---------- -->
+
+<div class="cart-overlay" id="cart-overlay" onclick="closeCart()"></div>
+
+<aside class="cart-panel" id="cart-panel">
+<div class="cart-header">
+<h3>Tu Carrito</h3>
+<button class="close-btn" onclick="closeCart()">✕</button>
+</div>
+<div class="cart-body">
+<p id="cart-empty" style="display: block;">Tu carrito está vacío.</p>
+<div id="cart-items"></div>
+</div>
+<div class="cart-footer">
+<div class="cart-total-row">
+<span>Total:</span>
+<span id="cart-total">$0</span>
+</div>
+<button class="checkout-btn" onclick="checkout()">Finalizar Compra</button>
+</div>
+</aside>
+
+<!-- ---------- MODAL DE COMPRA EXITOSA ---------- -->
+
+<div class="success-overlay" id="success-overlay">
+<div class="success-card">
+<div class="check-icon">✓</div>
+<h2>¡Compra realizada con éxito!</h2>
+<p>Pedido N° <strong id="order-number"></strong></p>
+<p>Total pagado: <strong id="order-total"></strong></p>
+<p class="success-note">Esta es una simulación de compra para fines de demostración. En una tienda real aquí se conectaría una pasarela de pago.</p>
+<button class="checkout-btn" onclick="closeSuccess()">Seguir Comprando</button>
+</div>
+</div>
+
+<script>
+
+let cart = [];
+
+function formatPrice(num){
+return '$' + num.toLocaleString('es-AR');
+}
+
+function addToCart(btn){
+const card = btn.closest('.card');
+const id = card.dataset.id;
+const name = card.dataset.name;
+const price = parseInt(card.dataset.price, 10);
+const img = card.querySelector('img').src;
+
+const existing = cart.find(item => item.id === id);
+if(existing){
+existing.qty++;
+} else {
+cart.push({id, name, price, img, qty:1});
+}
+
+renderCart();
+flashButton(btn);
+openCart();
+}
+
+function flashButton(btn){
+const original = btn.textContent;
+btn.textContent = '¡Añadido! ✓';
+btn.disabled = true;
+setTimeout(() => {
+btn.textContent = original;
+btn.disabled = false;
+}, 900);
+}
+
+function changeQty(id, delta){
+const item = cart.find(i => i.id === id);
+if(!item) return;
+item.qty += delta;
+if(item.qty <= 0){
+cart = cart.filter(i => i.id !== id);
+}
+renderCart();
+}
+
+function removeItem(id){
+cart = cart.filter(i => i.id !== id);
+renderCart();
+}
+
+function getTotal(){
+return cart.reduce((sum, i) => sum + i.price * i.qty, 0);
+}
+
+function getCount(){
+return cart.reduce((sum, i) => sum + i.qty, 0);
+}
+
+function renderCart(){
+const list = document.getElementById('cart-items');
+const countBadge = document.getElementById('cart-count');
+const totalEl = document.getElementById('cart-total');
+const emptyMsg = document.getElementById('cart-empty');
+
+countBadge.textContent = getCount();
+countBadge.style.display = getCount() > 0 ? 'flex' : 'none';
+
+list.innerHTML = '';
+
+if(cart.length === 0){
+emptyMsg.style.display = 'block';
+} else {
+emptyMsg.style.display = 'none';
+cart.forEach(item => {
+const div = document.createElement('div');
+div.className = 'cart-item';
+div.innerHTML = `
+<img src="${item.img}" alt="${item.name}">
+<div class="cart-item-info">
+<h4>${item.name}</h4>
+<p>${formatPrice(item.price)}</p>
+<div class="qty-controls">
+<button onclick="changeQty('${item.id}', -1)">-</button>
+<span>${item.qty}</span>
+<button onclick="changeQty('${item.id}', 1)">+</button>
+</div>
+</div>
+<button class="remove-btn" onclick="removeItem('${item.id}')">✕</button>
+`;
+list.appendChild(div);
+});
+}
+
+totalEl.textContent = formatPrice(getTotal());
+}
+
+function openCart(){
+document.getElementById('cart-overlay').classList.add('active');
+document.getElementById('cart-panel').classList.add('active');
+}
+
+function closeCart(){
+document.getElementById('cart-overlay').classList.remove('active');
+document.getElementById('cart-panel').classList.remove('active');
+}
+
+function checkout(){
+if(cart.length === 0) return;
+const total = getTotal();
+const orderNum = 'VD-' + Math.floor(100000 + Math.random()*900000);
+document.getElementById('order-number').textContent = orderNum;
+document.getElementById('order-total').textContent = formatPrice(total);
+closeCart();
+document.getElementById('success-overlay').classList.add('active');
+cart = [];
+renderCart();
+}
+
+function closeSuccess(){
+document.getElementById('success-overlay').classList.remove('active');
+}
+
+renderCart();
+
+</script>
+
+
+
+</body></html>
